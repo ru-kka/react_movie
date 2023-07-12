@@ -1,0 +1,32 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(700px,1fr));
+    grid-gap: 20px;
+    padding: 20px;
+    width: 30%;
+    padding-top: 70px;
+}
+
+.movie {
+    background-color: white;
+    margin-bottom: 50px;
+    font-weight: 500;
+    border-radius: 3px;
+    grid-gap: 8px;
+}
+
+.rating {
+    font-size: 20px;
+}
+
+.genres {
+    font-size: 20px;
+}
+
+.runtime {
+    font-size: 20px;
+}
+
+.summary {
+    font-size: 20px;
+}
